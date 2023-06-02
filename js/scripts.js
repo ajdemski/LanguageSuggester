@@ -19,11 +19,13 @@ window.onload = function () {
     const answer3 = document.getElementById("answers-3").value;
     let suggestion = "";
 
-    if (answer1 === "Olympics" || answer2 === "" || answer3 = "offGrid") {
-      suggestion = ""
+    if (answer1 === "caesar" || answer2 === "Olympics" || answer3 === "offGrid") {
+      suggestion = "javascript";
+    } else if (answer1 === "earhart" || answer2 === "marsMission" || answer3 === "winter") {
+      suggestion = "c#";
+    } else (answer1 === "armstrong" || answer2 === "offGrid" || answer3 === "spring") 
+      suggestion = "python";
+    }
+      
     }
 
-
-
-  }
-}
