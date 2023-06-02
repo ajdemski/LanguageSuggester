@@ -1,7 +1,5 @@
-window.onload = function () {
-  let form = document.querySelector("form");
-  form.onsubmit = function (event) {
-    event.preventDefault();
-    
-  }
+//User Interface Logic
+
+function hideResults() {
+  document.getElementById("")
 }

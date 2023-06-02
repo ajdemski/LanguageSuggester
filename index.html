@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <script src="js/scripts.js"></script>
-    <title>Programming Language Suggester</title>
-  </head>
 
-  <body>
-    <div class="Columns">
-      <form class="info1">
-        <div class="dropdown1" id="dropdown-1">
-          <label for="question1">dsj</label>
-          <select name="answers1" id="answers-1">
-            <option value="blank">blank</option>
-            <option value="blank">blank</option>
-            <option value="blank">blank</option>
-          </select>
-        </div>
-      </form>
-      <form class="info2">
-        <div class="dropdown2" id="dropdown-2">
-          <label for="question2">ksahd</label>
-          <select name="answers2" id="answers-2">
-            <option value="blank">blank</option>
-            <option value="blank">blank</option>
-            <option value="blank">blank</option>
-          </select>
-        </div>
-      </form>
-      <form class="info3">
-        <div class="dropdown3" id="dropdown-3">
-          <label for="question3">kl</label>
-          <select name="answers3" id="answers-3">
-            <option value="blank">blank</option>
-            <option value="blank">blank</option>
-            <option value="blank">blank</option>
-          </select>
-        </div>
-      </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <script src="js/scripts.js"></script>
+  <title>Programming Language Suggester</title>
+</head>
+
+<body>
+  <div>
+    <nav class="navBar">Programming Language Suggester</nav>
+  </div>
+  <div class="Columns">
+    <form class="info1">
+      <div class="dropdown1" id="dropdown-1">
+        <label for="question1">Whats one thing on your bucket list that you hope to accomplish in your lifetime?</label>
+        <select name="answers1" id="answers-1">
+          <option value="blank">Attend the Olympics</option>
+          <option value="blank">Join a team of astronauts to a mission to mars</option>
+          <option value="blank">Live off the grid in a remote cabin</option>
+        </select>
+      </div>
+    </form>
+    <form class="info2">
+      <div class="dropdown2" id="dropdown-2">
+        <label for="question2">If you could have dinner with any historical figure what would it be?</label>
+        <select name="answers2" id="answers-2">
+          <option value="caesar">Julius Caesar</option>
+          <option value="earhart">Amelia Earhart</option>
+          <option value="armstrong">Neil Armstrong</option>
+        </select>
+      </div>
+    </form>
+    <form class="info3">
+      <div class="dropdown3" id="dropdown-3">
+        <label for="question3">Whats your favorite season</label>
+        <select name="answers3" id="answers-3">
+          <option value="summer">Summer</option>
+          <option value="winter">Winter</option>
+          <option value="spring">Spring</option>
+        </select>
+      </div>
+    </form>
+  </div>
+  <div class="button">
+    <button class="button" id="button" type="submit">Submit</button>
+  </div>
+  <div id="result">
+    <div id="result1" class="hidden">
+      <h1>You should Learn Python</h1>
     </div>
-  </body>
+    <div id="result2" class="hidden">
+      <h2>You should Learn C#</h2>
+    </div>
+    <div id="result3" class="hidden">
+      <h3>You should Learn JavaScript</h3>
+    </div>
+  </div>
+</body>
+
 </html>
