@@ -25,7 +25,4 @@ window.onload = function () {
       suggestion = "c#";
     } else (answer1 === "armstrong" || answer2 === "offGrid" || answer3 === "spring") 
       suggestion = "python";
-    }
-      
-    }
-
+    }}
