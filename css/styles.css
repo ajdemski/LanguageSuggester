@@ -7,7 +7,7 @@ body {
 }
 
 .navBar {
-  background: #343434;
+  background: #2f2f2f;
   width: 100%;
   height: 50px;
   position: fixed;
@@ -21,12 +21,26 @@ body {
 #survey {
   background-color: white;
   position: absolute;
-  width: 800px;
-  height: 600px;
+  width: 1000px;
+  height: 400px;
   text-align: center;
   padding-top: 20px;
   border-radius: 20px;
-  top: 40%;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+#result {
+  background-color: white;
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 20px;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
