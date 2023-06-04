@@ -18,50 +18,17 @@ body {
   font-size: 40px;
 }
 
-.info1 {
+#survey {
   background-color: white;
   position: absolute;
-  width: 500px;
-  height: 100px;
+  width: 800px;
+  height: 600px;
   text-align: center;
   padding-top: 20px;
   border-radius: 20px;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
-}
-.info2 {
-  background-color: white;
-  position: absolute;
-  width: 500px;
-  height: 100px;
-  text-align: center;
-  padding-top: 20px;
-  border-radius: 20px;
-  top: 30%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.info3 {
-  background-color: white;
-  position: absolute;
-  width: 500px;
-  height: 100px;
-  text-align: center;
-  padding-top: 20px;
-  border-radius: 20px;
-  top: 30%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-}
-
-.button {
-  margin-top: 200px;
-  margin-left: 37%;
-  font-size: 21px;
-  width: 300px;
-}
