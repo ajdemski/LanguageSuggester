@@ -14,49 +14,50 @@
   <div>
     <nav class="navBar">Programming Language Suggester</nav>
   </div>
-    <form id="survey">
-      <div class="dropdown1" id="dropdown-1">
-        <label for="question1">1. Whats one thing on your bucket list that you hope to accomplish in your lifetime?</label>
-        <select name="answers1" id="answers-1">
-          <option value="">Select an option</option>
-          <option value="Olympics">Attend the Olympics</option>
-          <option value="marsMission">Join a team of astronauts to a mission to mars</option>
-          <option value="offGrid">Live off the grid in a remote cabin</option>
-        </select>
-      </div>
-      <br>
-      <div class="dropdown2" id="dropdown-2">
-        <label for="question2">2. If you could have dinner with any historical figure what would it be?</label>
-        <select name="answers2" id="answers-2">
-          <option value="">Select an option</option>
-          <option value="caesar">Julius Caesar</option>
-          <option value="earhart">Amelia Earhart</option>
-          <option value="armstrong">Neil Armstrong</option>
-        </select>
-      </div>
-      <br>
-      <div class="dropdown3" id="dropdown-3">
-        <label for="question3">3. Whats your favorite season?</label>
-        <select name="answers3" id="answers-3">
-          <option value="">Select an option</option>
-          <option value="summer">Summer</option>
-          <option value="winter">Winter</option>
-          <option value="spring">Spring</option>
-        </select>
-      </div>
-      <br>
-      <div class="text1">
-        <label for="question4">4. How much time (months) are you willing to invest in learning a new language?</label>
-        <input type="number" id="time" required>
-      </div>
-      <br>
-      <div class="text2">
-        <label for="question5">5. How old are you?</label>
-        <input type="number" id="age" required>
-      </div>
-      <div class="button">
-        <button type="submit">Submit</button>
-      </div>
+  <form id="survey">
+    <div class="dropdown1" id="dropdown-1">
+      <label for="question1">1. Whats one thing on your bucket list that you hope to accomplish in your
+        lifetime?</label>
+      <select id="answers-1">
+        <option value="">Select an option</option>
+        <option value="Olympics">Attend the Olympics</option>
+        <option value="marsMission">Join a team of astronauts to a mission to mars</option>
+        <option value="offGrid">Live off the grid in a remote cabin</option>
+      </select>
+    </div>
+    <br>
+    <div class="dropdown2" id="dropdown-2">
+      <label for="question2">2. If you could have dinner with any historical figure what would it be?</label>
+      <select id="answers-2">
+        <option value="">Select an option</option>
+        <option value="caesar">Julius Caesar</option>
+        <option value="earhart">Amelia Earhart</option>
+        <option value="armstrong">Neil Armstrong</option>
+      </select>
+    </div>
+    <br>
+    <div class="dropdown3" id="dropdown-3">
+      <label for="question3">3. Whats your favorite season?</label>
+      <select id="answers-3">
+        <option value="">Select an option</option>
+        <option value="summer">Summer</option>
+        <option value="winter">Winter</option>
+        <option value="spring">Spring</option>
+      </select>
+    </div>
+    <br>
+    <div class="text1">
+      <label for="time">4. How much time (months) are you willing to invest in learning a new language?</label>
+      <input type="number" id="time" required>
+    </div>
+    <br>
+    <div class="text2">
+      <label for="age">5. How old are you?</label>
+      <input type="number" id="age" required>
+    </div>
+    <div class="button">
+      <button type="submit">Submit</button>
+    </div>
   </form>
   <div id="result" style="display: none;">
     <h1>Based on your answers, we suggest you learn:</h1>
