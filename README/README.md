@@ -1,6 +1,6 @@
 # _Programming-Language-Suggester_
 
-#### By _** Aaron Demski **_
+#### By _Aaron Demski_
 
 #### _Programming Language Suggester_
 
