@@ -19,7 +19,7 @@ _A Code Review Project from Aaron Demski, in this repository you'll find an inde
 ## Setup/Installation Requirements
 
 * _Clone my repository to your desktop using VsCode_
-* _In the terminal clone the repository with the command: git clone https://github.com/ajdemski/About-Me_
+* _In the terminal clone the repository with the command: git clone https://github.com/ajdemski/About-Me.git_
 * _Navigate to the top level of the directory._
 * _Open index.html in the file you cloned/forked._
 
